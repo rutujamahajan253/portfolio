@@ -566,7 +566,7 @@ body.recruiter .recruiter-note{display:inline-block}
   <div class="wrap">
     <div class="sec-head rev">
       <span class="sec-tag">07 · LAYOVER LOG</span>
-      <h2 class="sec-title">Off-duty routes: sketchbook, street food, passport stamps.</h2>
+      <h2 class="sec-title">Off-duty routes: sketchbook, street food, new places.</h2>
       <p class="sec-sub">When I am not debugging, I like collecting small sparks of curiosity - unfinished sketches, new flavours, and places that teach me how differently people live, cook and create.</p>
     </div>
     <div class="interest-deck rev">
@@ -867,7 +867,6 @@ function openInterest(item,i){
     : `<div class="interest-modal-ph"><div><span>${item.icon}</span><span>replace src for image ${String(i+1).padStart(2,'0')}</span></div></div>`;
   modalContent.innerHTML=`<div class="modal-body">${media}
     <div class="mblock"><h6>Off-duty note</h6><p>${item.text}</p></div>
-    <div class="mblock signal-box"><h6>How to customise</h6><p>Images are referenced from the repo root. Keep the image file next to this HTML file and set <b>src:'your-image-name.jpg'</b> in the <b>INTEREST_GALLERY</b> array.</p></div>
   </div>`;
   openModal();
 }
